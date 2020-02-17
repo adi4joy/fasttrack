@@ -1,0 +1,36 @@
+Conversions:
+	String to Integer : Integer.parseInt(string)
+	String to Double  : Double.parseDouble(string)
+	any object to String : String.valueOf(<object>)
+
+
+
+	 Formatting:
+	 	String.format(<pattern>, <vars>...)
+	 	pattern can contain:
+	 		%d for integer numbers
+	 		%s for strings
+	 		%d for decimal numbers
+
+Reading data from file:
+- we use Scanner with a FileReader
+
+        Scanner scanner = new Scanner(new FileReader("test.txt"));
+	- when you do this you need to put throws FileNotFoundException in the caller function
+	    public static void main(String[] args) throws FileNotFoundException {
+
+
+	- then read it as we do with System.in:
+
+	- next()       - reads next word
+	- nextLine()   - reads the whole line
+	- nextInt()    - reads next int
+	- nextDouble() - reads next double
+	- hasNext()    - returns true if there are words to read
+	- hasNextInt() -  returns true if there are integers to read
+
+also, you can use a FileInputStrean
+       Scanner scanner = new Scanner(new FileReader("test.txt"));
+	as with FileReader, you need to put throws FileNotFoundException 
+
+

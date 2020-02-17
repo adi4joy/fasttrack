@@ -1,0 +1,27 @@
+	Collections
+
+	Collection -
+		- List
+			- ArrayList
+			- LinkedList
+		- Set
+			- HashSet
+			- TreeSet 
+	Map
+		- HashMap
+
+
+	usefull methods: 
+		add, get(i)
+		contains
+		remove
+		
+	Iterators
+
+Passing parameters by reference or by value:
+	ALL objects in java that are passed as parameters are passed as reference
+	ALL primitive variables in java are passed as value
+
+	- parameters passed as reference, if their content is changed, then the variable that was called as a parameter will also change, as it points to the same reference
+	- parameters passed as value will not influence the calling variable, regardles of how you change their content
+

@@ -1,0 +1,24 @@
+	Overriding:
+		- when extending a superclass, you can re-define or add unto the existing logic. You do this by defining a method with the same name and signature as the one from the base-class. 
+		- in order to call the one from the parent, you can use 'super' reserved word
+
+	Overloading:
+		- the concept of overloading is not really related to inheritance
+		- you can overload methods
+		- in order to overload methods, you just need to define a new method that has the same name as the existing one, but different arguments
+		eg.
+			public void drive()...
+			public void drive(int speed)...
+			public void drive(int speed, int direction);
+
+	Polymorphism:
+		- many forms
+		- polymorfism is the concept throu which a variable defined with a genreic type can behave differently depending on their implementation.
+		- ALWAYS use the most generic class you can to define an object instance;
+
+	FINAL:
+		- the reserved word 'final' can be used for classes, fields and methods
+		- when it's on the class it means that the class can't be extended
+		- when it's on the method, it means that the method can't be overriden
+		- when it's on the fields, it means that the reference of the variable can't be changed.
+

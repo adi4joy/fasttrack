@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="de09a0a9-7ddc-4f30-b413-1829607d6096" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UR5By6u4sttODQjhKOjhaNIqQB" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+  </component>
+  <component name="RunManager" selected="Application.GuessCurs">
+    <configuration name="BMICurs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.fasttrack.curs4.homework.BMICurs" />
+      <module name="course-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.fasttrack.curs4.homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex1Curs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.fasttrack.curs4.homework.Ex1Curs" />
+      <module name="course-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.fasttrack.curs4.homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GuessCurs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.fasttrack.curs4.homework.GuessCurs" />
+      <module name="course-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.fasttrack.curs4.homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeworkExercise7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.fasttrack.curs4.homework.HomeworkExercise7" />
+      <module name="course-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.fasttrack.curs4.homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MenuCurs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.fasttrack.curs4.homework.MenuCurs" />
+      <module name="course-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.fasttrack.curs4.homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GuessCurs" />
+        <item itemvalue="Application.MenuCurs" />
+        <item itemvalue="Application.BMICurs" />
+        <item itemvalue="Application.Ex1Curs" />
+        <item itemvalue="Application.HomeworkExercise7" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="StructuralSearchPlugin">
+    <searchConfiguration name="user defined" created="1576346536478" text="count" recursive="true" caseInsensitive="true" type="JAVA" pattern_context="default" scope_type="PROJECT" scope_descriptor="" history="1">
+      <constraint name="__context__" within="" contains="" />
+    </searchConfiguration>
+    <searchConfiguration name="user defined" created="1576343569184" text="elem" recursive="true" caseInsensitive="true" type="JAVA" pattern_context="default" scope_type="PROJECT" scope_descriptor="" history="1">
+      <constraint name="__context__" within="" contains="" />
+    </searchConfiguration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="de09a0a9-7ddc-4f30-b413-1829607d6096" name="Default Changelist" comment="" />
+      <created>1575306435678</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575306435678</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="297" y="239" width="941" height="345" key="#com.intellij.structuralsearch.plugin.ui.StructuralSearchDialog" timestamp="1576346536428">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="297" y="239" width="941" height="345" key="#com.intellij.structuralsearch.plugin.ui.StructuralSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1576346536428" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1575914121658">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1575914121658" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1575914135913">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1575914135913" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1575914135913">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1575914135913" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1575914135913">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1575914135913" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1575914135913">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1575914135913" />
+    <state x="345" y="148" width="846" height="604" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1575577456462">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="345" y="148" width="846" height="604" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.824@0.0.1536.824" timestamp="1575577456462" />
+    <state x="209" y="32" key="new project wizard" timestamp="1578931997718">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="209" y="32" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1578931997718" />
+  </component>
+</project>

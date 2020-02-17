@@ -1,0 +1,13 @@
+curs8
+	Interfaces:
+		- describes the behavior of a class. 
+		- does not provide implementation
+		- does not have fields / state;
+		- cannot be instantiated
+		- can be implemented by a class or extended by another interface
+		- implementing an interface means giving it implementation for all defined methods
+
+	Static:
+		Static defines a class-level method or field
+		If you don’t define a field/method as static, each instance of that object will refer to a different object
+		Static fields are on the class object, not on the instance. So all instances will share the same reference.

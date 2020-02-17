@@ -1,0 +1,119 @@
+OOP:
+	What is an object?
+		- the center concept of the Object Oriented Programming Paradigm
+		- STATE & BEHAVIOR
+		- state & behavior in real life:
+			- clock: state: position of arms
+					 behavior: moving forward, moving backward
+			- oven: state: temp set, time set, oven temp
+			        behavior: set temp, time, start cooking
+			- door: state: closed/opened, lock status
+					behavior: open/close, lock/unlock
+			- lamp: state: on/off
+					behavior: turn on/off
+		- you shouldn't access/change the state directly. Behavior exposes the information from the state and modifies the state of an object.
+		- hiding the internal state and requiring that all interactions with the object is done through the behavior is called ENCAPSULATION
+	
+	Object state
+		- object's fields
+		- initializing the fields:
+			- inline :  at defintion
+			- in constructor
+			- in the static block : you can define a static{} that can contain any initialization code that is allowed to access. This will be called before the constructor.
+
+	Object behavior
+	 	- object's methods
+
+	ENCAPSULATION
+		- there is no direct access to the object's state. Any interaction, read or change, will happen throu the object's behavior
+		- think about not having encapsulation for a real lamp: You could access the wires inside the lamp and have to knot them to turn the lamp on. This is a dangerous and error prone procedure
+
+	Why do we use OOP?
+		- Modularity: each object is it's own world, it's written and maintained independently of other objects in the system.
+		- Information hiding: using encapsulation we do not expose the internal implementation detail of an object
+		- Code reuse: existing objects, refined by other developers can be easily integrated for your needs
+		- pluggability: if you find that an object is misbehaving or you want to change it, you just remove it and replace it with another one
+
+	Class = Object Blueprint
+		- in Java an object is defined by a Class
+		- definition:
+			class <Name>{
+				//state
+
+				//behavior
+			}
+
+		exercise: build an object that defines a lamp;
+		class Lamp{
+			//state
+			private boolean on;
+
+			//behavior
+			public void turnOn(){
+				on = true;
+			}
+
+			public void turnOff(){
+				on=false;
+			}
+		}
+
+	Object instances
+		- a Class is the blueprint of an object. Then you are able to instantiate different objects with different states
+		- Lamp l1 = new Lamp();
+		- in order to create an object instance, we use the reserved word new: new Lamp(). 
+		- this will call the class constructor. The constructor is a special method that doesn't have a return type and has the exact same name with the object. 
+		- by default Java adds an empty constructor to the classes that have none defined
+
+	The state of an object:
+		- the state of an object is defined by its fields. 
+		- the Object fields are non-static object variables:
+
+		eg:
+		class Lamp{
+			private boolean on;
+		}
+
+	The behavior of an object:
+		- the behavior of an object in Java is defined by its non-static methods
+		class Lamp{
+			..
+			void turnOn(){
+
+			}
+		}
+
+	Visibility:
+		- In order to achieve encapsulation, we need to restrict the access of the object's user to the elements that won't break encapsulation
+		- for this we have access modifiers
+			--------------class----package----subclass----everybody----
+			- public     - yes ----  yes  ----  yes   ----  yes    ----
+			- protected  - yes ----  yes  ----  yes   ----  no     ----
+   (default)-            - yes ----  yes  ----  no    ----  no     ----
+			- private    - yes ----  no   ----  no    ----  no     ----
+			-----------------------------------------------------------
+		- these access modifiers govern the visibility of a field or a method
+
+		RECOMENDATION:
+			- for fields always use private, with the exception when you have a really good motive
+			- use the most restrictive modifier you can afford     
+	
+	Class constructors:
+		- in order to be able to build an instance of a class, you need to provide a method that builds that object. This special method is generically called a constructor
+		- a constructor has no return types
+		- a constructor can have as many parameters you need
+		- a class can have multiple constructor with different parameters
+		- if you don't provide a constructor, a default one, with no parameters will be provided for you if possible
+
+		eg:
+		class Lamp{
+			private boolean on;
+			public Lamp(){
+				this.on = true;
+			}
+			public Lamp(boolean state){
+				this.on = state;
+			}
+		}
+	THIS
+		- inside an object you can get the reference to the object you are in by using the reserved word: this.

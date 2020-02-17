@@ -1,0 +1,91 @@
+
+
+Control statements
+IF: 	-helps us implement a decision if a condition is true or false	
+	- if:
+		- syntax:
+			if(<condition>){
+				<statements>
+			}
+	- if-else
+		if(<condition>){
+			<statements>
+		} else{
+			<statements
+		}
+	- if-else-if-else
+		if(<condition>){
+			<statements>
+		} else if(<another-condition>){
+
+		} else{
+			<statements>
+		}
+
+SWITCH: used when we have multiple branches based on a variable
+	- syntax :
+		switch(<variable>){
+			case <value> : <statement>
+				break;
+			case <value> : <statement>
+				break;
+			default: <statement>
+		}
+
+Loop Control:
+
+WHILE: executes a block o code WHILE a condition is true. The condition is checked before the execution
+	syntax:
+		while(<condition>){
+			<statements>
+		}
+DO-WHILE: executes a block o code WHILE a condition is true. The condition is checked after the execution
+	syntax:
+		do{
+			<statments>
+		} while(<condition>);
+FOR: executes a loop by initiating an index
+	syntax:
+		for(<initialization>;<interogation>;<increment>){
+			<statements>
+		}
+		example:
+		for (int i = 0; i < max; i++) {
+            System.out.println("For loop " +i);
+        }
+
+	for iterable structures:
+		for(<TYPE> <variable>: <collection>){
+			<statements>
+		}
+		example:
+			List<String> strings=new ArrayList();
+			//
+		for (String element : strings) {
+            System.out.println(element);
+        }
+
+
+ Getting input from console:
+
+ We use java.util.Scanner
+
+        Scanner scanner = new Scanner(System.in);
+        
+        int intValue = scanner.nextInt();
+        System.out.println(intValue);
+        String word = scanner.next();
+        System.out.println(word);
+        double doubleValue = scanner.nextDouble();
+        System.out.println(doubleValue);
+        float floatValue = scanner.nextFloat();
+        System.out.println(floatValue);
+
+   - to continuously read from console until "exit" is read
+
+        Scanner scanner = new Scanner(System.in);
+        String word;
+        do {
+            word = scanner.next();
+            System.out.println(word);
+        } while (!"exit".equals(word));

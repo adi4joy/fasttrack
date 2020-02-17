@@ -1,0 +1,3 @@
+Aceasta este o linie de test
+11
+2.45

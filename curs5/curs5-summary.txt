@@ -1,0 +1,55 @@
+Type casts
+	- you can transform a primitive into another one 
+	for example, this is not accepted:
+	int a = 22;
+	byte b = a; // byte cannot hold an int value
+
+	But if you really want to transform it, you can do it explicitly:
+	int a = 22;
+	byte b = (byte)a;
+
+	But what if you transform an int to byte that exceeds the byte's capacity:
+	int a = 200;
+	byte b = (byte)a; //b will overflow: will have value -56
+
+
+
+Packages
+	- directory structure
+
+Importing classes/packages
+	import ro.itscool.Functions;
+	import ro.itschool.*;
+
+Strings
+	- Creating a string
+			String s= “abc”;
+			String s2= new String(“abc”);
+	Important methods on String: (for more check https://docs.oracle.com/en/java/javase/12/docs/api/java.base/java/lang/String.html)
+	 - length :  the length of the string
+	 - trim   :  deletes the empty spaces at the beginning and the end of the string
+	 - substring(start) : returns the substring starting at position <start> to string's end
+	 - substring(start, end) : returns the substring starting at position <start> to position <end>
+	 - charAt(pos) : the character at position <pos>
+	 - toCharArray : returns the char[] array containing all characters of the string
+	 - toLowerCase : returns the same string, but with all letters lower cased
+	 - toUpperCase : returns the same string, but with all letters upper cased
+	 - split(delim) : splits the string using the delimitator <delim>
+	 - indexOf(str) : returns the first starting index of <str> if it is contained in the source string.
+	                  Otherwise, it'll return -1
+	 - lastIndexOf(str) : returns the last starting index of <str> if it is contained in the source string. Otherwise, it'll return -1
+	 - contains(string) : returns true if the string <string> is contained into the source string
+
+Conversions:
+	String to Integer : Integer.parseInt(string)
+	String to Double  : Double.parseDouble(string)
+	any object to String : String.valueOf(<object>)
+
+
+
+	 Formatting:
+	 	String.format(<pattern>, <vars>...)
+	 	pattern can contain:
+	 		%d for integer numbers
+	 		%s for strings
+	 		%d for decimal numbers

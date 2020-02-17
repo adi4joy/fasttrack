@@ -1,0 +1,42 @@
+----
+Introduction to GIT:
+	- GIT is a distributed version control system
+	- it tracks files. It remembers all the history of the file. You can create branches to develop the code at different paces
+	- it has two parts: the repository and the workspace.
+
+Working with git:
+	- cloning : the process of getting your own copy of the repository on your local machine
+		- git clone <git_url> <local_name>
+		- git clone  git@github.com:itschool-java-oradea/maven-java-base.git
+	- git from scratch: if you want to start from your local machine with a git 			environment, create a directory with the repo name, and the run git init inside 	it. This will initialize the local repository.
+	- setting up the ssh key:
+		- ssh-keygen -> Enter...
+		- this will create in user's directory (~) .ssh/id_rsa and .ssh/id_rsa.pub
+		- copy .ssh/id_rsa.pub to clipboard; add it to Github: Settings/SSH and GPG keys/New SSH keys. DO NOT expose id_rsa content to anybody.
+	- getting the status of the repository:
+		- git status
+	- tracking new files:
+		- add a new file to repository
+			- echo test >test.txt
+		- add to git: git add test.txt
+	- staging new files:
+		- if you change a file that is already tracked, the modifications will be detected
+		- git add text.txt
+	- ignoring files:
+		- add it to .gitignore. It supports regex patterns
+	- commiting your changes
+		- all the staged changes comprise a changeset
+		- git commit -m "message"
+
+	- viewing history:
+		- git log 
+
+	- pushing commited changesets 
+		- git push origin master
+
+	- getting the changes into the local repository:
+		- git fetch
+	- updating the workspace with the latest changes:
+		- git update
+	- get the changes AND update the workspace:
+		- git pull [origin master]

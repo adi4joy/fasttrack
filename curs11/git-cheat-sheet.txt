@@ -1,0 +1,8 @@
+git clone <url>                - cloneaza repository-ul remote pe masina locala
+
+git add .                      - adauga toate fisierele modificate in changeset
+git commit -m "mesajul meu"    - "commite" toate modificarile adaugate prin git add in repository local
+git push                       - impinge toate commiturile locale pe gitul remote (prima data cand comitem pe 	un branch facem       git push origin master)
+
+git pull 					   - actualizeaza repositoryul local cu toate modificarile facute intretimp
+ 
